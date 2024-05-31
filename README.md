@@ -16,7 +16,9 @@ Built with [crxjs.dev](https://crxjs.dev).
 npm i
 ```
 
-3. Run
+3. Rename .env.sample to .env and enter your OpenAI API key
+
+4. Run
 
 ```
 npm run dev
