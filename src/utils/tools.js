@@ -1,6 +1,6 @@
 import { callOpenAI, generalCall } from "./chat";
 import { load } from "cheerio";
-import { gulyaArray, summaryArray } from "./prompts";
+import { summaryArray } from "./prompts";
 
 const google_search = async ({ query }) => {
   window.location.href = `https://www.google.com/search?q=${query}`;
