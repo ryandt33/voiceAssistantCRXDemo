@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "My Little Siri",
+  "version": "0.0.1",
+  "action": {},
+  "content_scripts": [
+    {
+      "js": ["src/content.jsx"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
